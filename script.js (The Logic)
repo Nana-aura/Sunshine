@@ -1,0 +1,11 @@
+function triggerCircleOfLove() {
+    const display = document.getElementById('hope-display');
+    display.innerHTML = "<strong>Delilah, you are unique.</strong> We are circling you now, reminding you of your goodness. You are the architect of love.";
+    document.getElementById('status-text').innerText = "SURROUNDED BY LOVE";
+}
+
+function applyProtocol(type) {
+    const status = document.getElementById('status-text');
+    status.innerText = "Applying " + type + "...";
+    setTimeout(() => { status.innerText = "STABLE"; }, 1000);
+}
