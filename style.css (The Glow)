@@ -1,0 +1,11 @@
+body { background-color: #121212; color: #e0e0e0; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.app-container { max-width: 350px; width: 90%; background: #1e1e1e; padding: 2rem; border-radius: 30px; border: 1px solid #ffd700; text-align: center; }
+h1 { color: #ffd700; margin-bottom: 0; }
+.subtitle { color: #888; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 20px; }
+.status-card { background: #252525; padding: 15px; border-radius: 15px; margin-bottom: 20px; }
+.pulse-circle { width: 12px; height: 12px; background: #00ff88; border-radius: 50%; margin: 10px auto; box-shadow: 0 0 10px #00ff88; }
+.protocol-grid { display: flex; flex-direction: column; gap: 10px; }
+button { background: #333; color: white; border: 1px solid #444; padding: 15px; border-radius: 12px; cursor: pointer; }
+#emergency-btn { background: #ff4757; border: none; font-weight: bold; }
+.message-of-hope { margin-top: 25px; padding: 15px; background: rgba(255, 215, 0, 0.1); border-radius: 10px; border-left: 3px solid #ffd700; text-align: left; }
+footer { margin-top: 20px; font-size: 0.8rem; color: #666; }
